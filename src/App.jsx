@@ -1,10 +1,19 @@
-import './App.css'
-import HeronsFormula from './components/HeronsFormula'
+import './App.css';
+import HeronsFormula from './components/HeronsFormula';
+import AmbiguousCase from './components/AmbiguousCase';
 
 function App() {
 
   return (
-    <HeronsFormula/>
+    <div class="container">
+      <div class="card">
+        <AmbiguousCase/>
+      </div>
+      <div class="card">
+        <HeronsFormula/>
+      </div>
+    </div>
+
   )
 
 }
