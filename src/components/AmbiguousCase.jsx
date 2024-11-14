@@ -14,7 +14,7 @@ function AmbiguousCase() {
         var angleRadians = angleA * (Math.PI / 180);
         var h = b * Math.sin(angleRadians);
       
-        if (angleA < 180) {
+        if (angleA < 180 && angleA > 0) {
           if (angleA < 90) {
             if (a < h) {
               setResult("No triangle.");
