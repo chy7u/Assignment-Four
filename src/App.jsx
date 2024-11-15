@@ -2,6 +2,7 @@ import './App.css';
 import HeronsFormula from './components/HeronsFormula';
 import AmbiguousCase from './components/AmbiguousCase';
 import NewtonsMethod from './components/Newtons';
+import Polynomial from './components/Polynomial';
 
 function App() {
 
@@ -15,6 +16,9 @@ function App() {
       </div>
       <div class="card">
         <NewtonsMethod/>
+      </div>
+      <div class="card">
+        <Polynomial/>
       </div>
     </div>
 
